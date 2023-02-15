@@ -1,0 +1,61 @@
+#header {
+    background-color: bisque;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-family: 'Hubballi', cursive;
+ 
+}
+
+h1,h2,h3 {
+    text-transform: uppercase;
+}
+
+#nameAndTitle {
+    background-color: white;
+    width: 50%;
+    margin: 0px auto; /*auto faz com que seja 
+    distribuido o mesmo tamanho entre as margens*/
+    text-align: center;
+   
+}
+
+#nameAndTitle h1,h2 {
+    margin: 0;
+}
+
+#contact {
+    list-style-type: none; /*Tirando marcadores da lista*/
+}
+
+#contact i {
+    width: 30px;
+    color: rgb(233, 209, 179)
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-column-gap: 20px;
+    
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#links {
+    list-style-type: none;
+}
+
+.card h3 {
+    font-family:'Hubballi', cursive ;
+}
+.card{
+    font-family: Montserrat;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 15px;
+    padding: 20px;
+}
